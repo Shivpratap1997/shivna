@@ -10,6 +10,15 @@ namespace shiv
     {
         static void Main(string[] args)
         {
+            int i = 1;
+            int sum = 0;
+            while (i <= 5)
+            {
+                sum += i;
+                i++;
+            }
+            Console.WriteLine("SUM IS {0}", sum);
+            Console.ReadLine();
         }
     }
 }
